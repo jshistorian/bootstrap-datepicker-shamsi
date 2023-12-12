@@ -3,30 +3,10 @@
   "description": "A Shamsi (Jalali / Iranian) datepicker for Bootstrap",
   "version": "1.9.0",
   "license": "Apache-2.0",
-  "keywords": [
-    "datepicker",
-    "bootstrap"
-    "Persian",
-    "Jalali",
-    "Shamsi",
-  ],
   "main": "./dist/js/bootstrap-datepicker.js",
-  "files": [
-    "build",
-    "dist",
-    "js/**/*.js",
-    "less/*.less",
-    "LICENSE"
-  ],
-  "homepage": "https://github.com/uxsolutions/bootstrap-datepicker",
-  "author": "Andrew Rowls <eternicode@gmail.com>",
   "scripts": {
     "test": "grunt test",
     "screenshots": "node ./docs/screenshots.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uxsolutions/bootstrap-datepicker.git"
   },
   "dependencies": {
     "jquery": ">=3.4.0 <4.0.0"
